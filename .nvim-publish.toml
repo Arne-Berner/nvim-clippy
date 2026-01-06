@@ -1,0 +1,11 @@
+name = "nvim-clippy"
+description = "A Neovim plugin for displaying Rust Clippy diagnostics in Telescope or Quickfix lists."
+author = "Arne Berner"
+maintainer = "Arne Berner"
+license = "Dual-licensed MIT or Apache License, Version 2.0"
+version = "0.1.0"
+repository = "https://github.com/arne-berner/nvim-clippy"
+
+[dependencies]
+nvim = ">=0.10.0"
+telescope = "https://github.com/nvim-telescope/telescope.nvim"
